@@ -100,6 +100,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
 .reg {
   max-width: 50%;
   height: auto;
@@ -129,17 +130,15 @@ img {
   display: block;
 }
 
-img-caption {
+.img-caption {
   display: block;
-  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
-
-.img-collage {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  position: relative;
+.row-div {
+  margin-top: 24px;
+  margin-bottom: 8px;
 }
-
 .big {
   max-width: 65%;
   height: auto;
