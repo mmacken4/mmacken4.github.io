@@ -3,15 +3,32 @@
     <head>
         <title>Onion Portage</title>
         <link rel="stylesheet" href="styles.css">
-        
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+        <script src="https://d3js.org/d3.v4.min.js"></script>
     </head>
     <body>
-        <img class="big"src="images/pvd_map.jpg">
-        <h1>Providence</h1>
-        <p id="name">Macilee MacKenzie</p>
+        <section class="hero">
+            <div class="hero-left">
+                <div class="hero-text">
+                    <h1>This is where the title goes</h1>
+                    <h2 id="subtitle">This is where the subtitle goes</p>
+                </div>
+            </div>
+            <div class="hero-right">
+                <img class="full" src="images/64-321.jpg">
+            </div>
+        </section>
+
+
+        <section class="narrative">
+            <div>
+                
+
+            </div>
+
+        </section>      
         <div class="divider"></div>
         <p>Arctic Archeology, lots of digging</p>
         <img src="images/rhode_island.png">
@@ -19,5 +36,8 @@
         </p>
         <h2>About this story</h2>
         <p>Here's a <a href="http://www.brown.edu/">link</a>.</p>
+        <div id = "myTooltip">_</div>
+        <div id = "myChart"></div>
     </body>
+    <script src="scripts/scatter.js"></script>
 </html>
