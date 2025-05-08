@@ -100,25 +100,64 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.big {
+.reg {
   max-width: 50%;
   height: auto;
   object-fit: cover;
   justify-items: center;
 }
-.image-row {
-  max-width: 70%;
-  height: auto;
+.img-row {
+  height: 275px;
+  width: 400px;
   object-fit: cover;
   justify-items: center;
 }
 .row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 100%;
+}
+
+.row p {
+  margin-left: 14.664px;
 }
 
 .caption {
   color: rgb(148, 148, 148);
   font-size: 14px;
   line-height: 1.4;
+  display: block;
+}
+
+img-caption {
+  display: block;
+  text-align: center;
+}
+
+.img-collage {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  position: relative;
+}
+
+.big {
+  max-width: 65%;
+  height: auto;
+  object-fit: cover;
+  justify-items: center;
+}
+
+.img #btm-l {
+  grid-column: 1 / span 4;
+  grid-row: 1;
+}
+
+#top-r {
+  grid-column: 6 / span 4;
+  grid-row: 1;
+}
+
+#btm-m {
+  grid-column: 5 / span 3;
+  grid-row: 1;
 }
