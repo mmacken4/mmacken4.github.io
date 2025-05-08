@@ -107,6 +107,19 @@ img {
   object-fit: cover;
   justify-items: center;
 }
+
+.sml {
+  max-width: 40%;
+  height: auto;
+  object-fit: cover;
+  justify-items: center;
+}
+.xl {
+  max-width: 70%;
+  height: auto;
+  object-fit: cover;
+  justify-items: center;
+}
 .img-row {
   height: 275px;
   width: 400px;
