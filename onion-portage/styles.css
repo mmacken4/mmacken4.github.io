@@ -94,6 +94,7 @@ h2 {
 #subtitle {
   color: rgb(148, 148, 148);
 }
+
 img {
   display: block;
   width: 100%;
@@ -101,20 +102,28 @@ img {
   margin-right: auto;
 }
 
-.reg {
+.sml img {
+  max-width: 40%;
+  height: auto;
+  object-fit: cover;
+  justify-items: center;
+}
+
+.reg img {
   max-width: 50%;
   height: auto;
   object-fit: cover;
   justify-items: center;
 }
 
-.sml {
-  max-width: 40%;
+.big img {
+  max-width: 65%;
   height: auto;
   object-fit: cover;
   justify-items: center;
 }
-.xl {
+
+.xl img {
   max-width: 70%;
   height: auto;
   object-fit: cover;
@@ -151,12 +160,6 @@ img {
 .row-div {
   margin-top: 24px;
   margin-bottom: 8px;
-}
-.big {
-  max-width: 65%;
-  height: auto;
-  object-fit: cover;
-  justify-items: center;
 }
 
 .img #btm-l {
