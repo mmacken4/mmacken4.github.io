@@ -102,28 +102,28 @@ img {
   margin-right: auto;
 }
 
-.sml img {
+.small {
   max-width: 40%;
   height: auto;
   object-fit: cover;
   justify-items: center;
 }
 
-.reg img {
+.reg {
   max-width: 50%;
   height: auto;
   object-fit: cover;
   justify-items: center;
 }
 
-.big img {
+.big {
   max-width: 65%;
   height: auto;
   object-fit: cover;
   justify-items: center;
 }
 
-.xl img {
+.xl {
   max-width: 70%;
   height: auto;
   object-fit: cover;
